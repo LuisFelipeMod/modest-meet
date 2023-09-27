@@ -107,6 +107,14 @@ a {
 }
 
 main{
-  max-width: 1366px;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 6rem 1rem 0 1rem;
+  min-height: 100vh;
   margin: 0 auto;
 }
